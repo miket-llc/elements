@@ -12,5 +12,5 @@ fn main() {
       tauri::Menu::default()
     })
     .run(context)
-    .expect("error while running tauri application");
+    .expect("Elements encountered an unhandled exception. Someone will pay for this.");
 }
